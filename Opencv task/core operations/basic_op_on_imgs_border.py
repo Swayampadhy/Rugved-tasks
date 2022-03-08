@@ -3,7 +3,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 img = cv.imread('/home/swayam/opencv/samples/datas/starry_night.jpg')
 BLUE = [255,0,0]
-img1 = cv.imread('opencv-logo.png')
 replicate = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REPLICATE)
 reflect = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REFLECT)
 reflect101 = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REFLECT_101)
